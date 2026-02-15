@@ -1,0 +1,51 @@
+body{
+    background-color: #C5ADC5;
+}
+h1{
+    text-align: center;
+    position: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #4B0082;
+    background-color: #B2B5E0;
+    z-index: 3;
+}
+img{
+    width: 20rem;
+    align-items: center;
+}
+
+.caixa{
+    background-color: #B2B5E0;
+    width: 360px;
+    height: 360px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.caixa:hover{
+    background-color: #7e85eb;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.caixa {
+    flex-direction: column;  /* Adicione isto */
+}
+
+.preco {
+    font-weight: bold;
+    color: #4B0082;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    gap: 100px;
+}
