@@ -9,13 +9,14 @@ body{
     display: flex;
     flex-direction: column;
     gap: 100px;
-    
+    padding-top: 60px;
 }
 h2{
     background-color:#B2B5E0 ;
     width: 100%;
     text-align: center;
     padding: 10px;
+    margin-top: 100px;
 }
 img{
     width: 20rem;
